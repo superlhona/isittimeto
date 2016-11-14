@@ -1,0 +1,92 @@
+/*general*/
+body {
+  color: #fff;
+  background-color: #D6D9DC;
+  background: url(../images/bg-city.jpeg) no-repeat center top fixed;
+  font-family: 'Viga', sans-serif;
+}
+
+input {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 30px;
+  padding: 5px;
+  font-size: 35px;
+  font-family: 'Share Tech Mono', monospace;
+  color: #696969;
+} 
+
+.row2 h1 {
+	margin-top: 20px;
+	font-size: 50px;
+	text-align: left;
+  text-shadow: 2px 2px #696969;
+}
+
+.title {
+	text-align: right;
+}
+@media (max-width: 767px){
+	.title {
+		text-align: center;
+	}
+	.row2 h1 {
+	text-align: center;
+}
+}
+/*typography*/
+h1 {
+	/*font-family: 'Pacifico', cursive;*/
+	font-size: 50px;
+	margin-top: 10px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  text-shadow: 2px 2px #696969;
+}
+
+/*button*/
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 80px 10px 80px;
+  text-decoration: none;
+  border: none;
+  margin: 30px auto 60px auto;
+  font-family: 'Viga', sans-serif;
+}
+
+.btn:hover {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #096ead);
+  background-image: -moz-linear-gradient(top, #3498db, #096ead);
+  background-image: -ms-linear-gradient(top, #3498db, #096ead);
+  background-image: -o-linear-gradient(top, #3498db, #096ead);
+  background-image: linear-gradient(to bottom, #3498db, #096ead);
+  text-decoration: none;
+  border: none;
+  font-family: 'Viga', sans-serif;
+  color: #fff;
+}
+
+/*clock*/
+.clock {
+	margin-top: 10%;
+}
+#clockDisplay {
+	font-size: 30px;
+	margin: 30px auto 60px auto;
+}
+
+#note{
+  text-shadow: 1px 1px #696969;
+}
